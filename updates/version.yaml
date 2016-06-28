@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Plugin Inicializado'
+1.0.2:
+    - 'Criada tabela de projetos'
+    - builder_table_create_hjfigueira_projetos_projetos.php
+1.0.3:
+    - 'Added slug column to projects columns'
+    - builder_table_update_hjfigueira_projetos_projetos.php

@@ -1,0 +1,9 @@
+columns:
+    titulo:
+        label: hjfigueira.projetos::lang.lists.projetos.titulo
+        type: text
+    modulos:
+      label : hjfigueira.projetos::lang.lists.projetos.modulos
+      type : partial
+      clickable : false
+      cssClass : column-button

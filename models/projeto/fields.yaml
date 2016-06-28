@@ -1,0 +1,17 @@
+fields:
+    titulo:
+        label: 'Título do Projeto'
+        type: text
+        span : left
+    slug :
+        label : Slug
+        span : right
+        attributes:
+          readonly : true
+        preset :
+          field : titulo
+    descricao:
+        label: Descrição
+        size: small
+        span: full
+        type: textarea

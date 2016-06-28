@@ -1,0 +1,29 @@
+<div class="panel-group">
+    <div class="title">Modulos</div>
+    <div class="content">
+
+        <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li role="presentation">
+                <a href="<?= $this->getUrl('hjfigueira/projetos/projetos/index/:slug') ?>"><i class="oc-icon-dashboard"></i> <?= e(trans('Visão Geral'))?> </a>
+            </li>
+            <li role="presentation">
+                <a href="<?= $this->getUrl('hjfigueira/bugs/projeto/index/:slug') ?>"><i class="oc-icon-bug"></i> Bugs</a>
+            </li>
+            <li role="presentation">
+                <a href="#"><i class="oc-icon-pagelines"></i> Profile</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="panel-group">
+    <div class="title">Settings</div>
+    <div class="content">
+        <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li role="presentation">
+                <a href="#"><i class="oc-icon-cogs"></i> Settings </a>
+            </li>
+        </ul>
+    </div>
+</div>

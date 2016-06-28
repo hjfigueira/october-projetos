@@ -1,0 +1,6 @@
+plugin:
+    name: 'hjfigueira.projetos::lang.plugin.name'
+    description: 'hjfigueira.projetos::lang.plugin.description'
+    author: 'Hélio Figueira Junior'
+    icon: oc-icon-columns
+    homepage: ''

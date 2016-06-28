@@ -1,0 +1,62 @@
+<div class="layout-cell w-250" id=main-side>
+
+    <div>
+
+        <div style="margin-bottom: 0px; height: 60px">
+            <h4><?= e('Projeto')?></h4>
+            <p style="font-size: 20px;line-height: 23px;"><?= isset($projectName) ? $projectName : null ?></p>
+        </div>
+
+        <?= $this->makePartial('fast_status') ?>
+
+        <?= $this->makePartial('options') ?>
+
+    </div>
+</div>
+<div class="layout-cell w-100" style="border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: rgb(216, 216, 216);background-color: #fdfdfd;">
+</div>
+
+<style>
+
+    .table.data tbody tr td.item-title
+    {
+         padding: 8px !important;
+    }
+
+    .table.data tbody tr td.item-value
+    {
+        text-align: right;
+    }
+
+    .w-250{
+        width : 250px
+    }
+
+    #main-side {
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgb(216, 216, 216);
+        background-color: white;
+    }
+
+    .panel-group .title{
+        border-top: 1px solid #f3f3f3;
+        padding: 4px;
+        color: #c5c4c4;
+        text-align: right;
+    }
+
+    .nav-pills > li > a {
+         -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+         border-radius: 0px;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 8px 15px;
+    }
+</style>

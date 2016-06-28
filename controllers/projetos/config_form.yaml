@@ -1,0 +1,10 @@
+name: Projetos
+form: ~/plugins/hjfigueira/projetos/models/projeto/fields.yaml
+modelClass: Hjfigueira\Projetos\Models\Projeto
+defaultRedirect: hjfigueira/projetos/projetos
+create:
+    redirect: 'hjfigueira/projetos/projetos/update/:id'
+    redirectClose: hjfigueira/projetos/projetos
+update:
+    redirect: hjfigueira/projetos/projetos
+    redirectClose: hjfigueira/projetos/projetos

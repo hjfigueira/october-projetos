@@ -1,0 +1,4 @@
+<?php foreach($this->modulos as $modulo) :  ?>
+	<a href="<?= $this->getUrl($modulo['url'],$record) ?>" class="btn btn-primary">
+	<i class="<?= $modulo['icon'] ?>"></i> <?= $modulo['label'] ?></a>
+<?php endforeach; ?>
